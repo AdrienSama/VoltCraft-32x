@@ -1,0 +1,778 @@
+//------------------------------------------------------------------//
+//   Code modified by Vechrozilator               //
+//   For how to play UI for VoltCraft Pack Guide  //
+//-----------------------------------------------------------------//
+
+{
+  "namespace": "how_to_play",
+
+  "how_to_play_screen@how_to_play_common.screen_base": {
+    "$selector_stack_panel": "how_to_play.selector_stack_panel",
+    "$section_content_panels": "how_to_play.section_content_panels",
+    "$header_safezone_control": "common_store.store_top_bar_filler",
+    "$header_bar_control": "common_store.store_top_bar",    
+    "$is_full_screen_layout": true
+  },
+
+  "selector_stack_panel": {
+    "type": "stack_panel",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "orientation": "vertical",
+    "$default_selector_toggle_index": 2,
+    "controls": [
+      {
+        "how_to_play_selector_pane": {
+          "type": "stack_panel",
+          "controls": [
+            {
+              "padding_0": {
+                "type": "panel",
+                "size": [ 0, 6 ]
+              }
+            },
+            { "general_category@how_to_play_common.topic_category": { "$category": "general" } },
+            { "introduction_button@how_to_play.introduction_button": { "$toggle_group_forced_index": 0 } },
+            { "about_button@how_to_play.about_button": { "$toggle_group_forced_index": 1 } },
+            { "terms_of_use_button@how_to_play.terms_of_use_button": { "$toggle_group_forced_index": 2 } },
+
+            { "getting_started_category@how_to_play_common.topic_category": { "$category": "gettingStarted" } },
+            { "creating_world_button@how_to_play.creating_world_button": { "$toggle_group_forced_index": 3 } },
+            { "acquiring_needs_button@how_to_play.acquiring_needs_button": { "$toggle_group_forced_index": 4 } },
+
+            { "equipments_category@how_to_play_common.topic_category": { "$category": "equipments" } },
+            { "element_constructor_button@how_to_play.element_constructor_button": { "$toggle_group_forced_index": 5 } },
+            { "compound_creator_button@how_to_play.compound_creator_button": { "$toggle_group_forced_index": 6 } },
+            { "lab_table_button@how_to_play.lab_table_button": { "$toggle_group_forced_index": 7 } },
+            { "material_reducer_button@how_to_play.material_reducer_button": { "$toggle_group_forced_index": 8 } },
+
+            { "products_category@how_to_play_common.topic_category": { "$category": "products" } },
+            { "compound_button@how_to_play.compound_button": { "$toggle_group_forced_index": 9 } },
+            { "lab_product_button@how_to_play.lab_product_button": { "$toggle_group_forced_index": 10 } },
+            { "crafted_items_button@how_to_play.crafted_items_button": { "$toggle_group_forced_index": 11 } },
+            { "medicine_button@how_to_play.medicine_button": { "$toggle_group_forced_index": 12 } },
+
+            { "other_content_category@how_to_play_common.topic_category": { "$category": "otherContent" } },
+            { "other_guides_button@how_to_play.other_guides_button": { "$toggle_group_forced_index": 13 } },
+            { "other_resources_button@how_to_play.other_resources_button": { "$toggle_group_forced_index": 14 } },
+            {
+              "padding_1@how_to_play_common.padding": {
+                "size": [ 0, 10 ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "section_content_panels": {
+    "type": "stack_panel",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [ "100% - 5px", "100%c + 5px" ],
+    "offset": [ 2, 0 ],
+    "controls": [
+      {
+        "general_tips_sections": {
+          "type": "stack_panel",
+          "controls": [
+            {
+              "section_contents_header@how_to_play_common.section_contents_header": { }
+            },
+            { "introduction_section@how_to_play.introduction_section": { } },
+            { "about_section@how_to_play.about_section": { } },
+            { "terms_of_use_section@how_to_play.terms_of_use_section": { } },
+
+            { "creating_world_section@how_to_play.creating_world_section": { } },
+            { "acquiring_needs_section@how_to_play.acquiring_needs_section": { } },
+
+            { "element_constructor_section@how_to_play.element_constructor_section": { } },
+            { "compound_creator_section@how_to_play.compound_creator_section": { } },
+            { "lab_table_section@how_to_play.lab_table_section": { } },
+            { "material_reducer_section@how_to_play.material_reducer_section": { } },
+
+            { "compound_section@how_to_play.compound_section": { } },
+            { "lab_product_section@how_to_play.lab_product_section": { } },
+            { "crafted_items_circuit_section@how_to_play.crafted_items_section": { } },
+            { "medicine_section@how_to_play.medicine_section": { } },
+
+            { "other_guides_section@how_to_play.other_guides_section": { } },
+            { "other_resources_section@how_to_play.other_resources_section": { } },
+            {
+              "section_contents_footer@how_to_play_common.section_contents_footer": { }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "introduction_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "introduction"
+  },
+  "introduction_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "introduction_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      { "header_0@how_to_play_common.header": {
+         "$text": "introduction.header.title0" } },
+      { "padding_0@how_to_play_common.padding": { } },
+      { "paragraph_0@how_to_play_common.paragraph": {
+         "$text": "cg.introduction.text0" } },
+      { "padding_1@how_to_play_common.padding": { } },
+      { "paragraph_1@how_to_play_common.paragraph": {
+         "$text": "cg.introduction.text1" } },
+       { "padding_3@how_to_play_common.padding": { } },
+       { "header_1@how_to_play_common.header": {
+         "$text": "introduction.header.title1" } },
+       { "padding_2@how_to_play_common.padding": { } },
+       { "paragraph_2@how_to_play_common.paragraph": {
+          "$text": "cg.introduction.text2" }
+          }
+       ]
+    },
+  
+  "about_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "about"
+  },
+  "about_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "about_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      { "header_0@how_to_play_common.header": {
+         "$text": "about.header.title0" } },
+      { "padding_0@how_to_play_common.padding": { } },
+      { "paragraph_0@how_to_play_common.paragraph": {
+         "$text": "cg.about.text0" } },
+      { "padding_1@how_to_play_common.padding": { } },
+      { "paragraph_1@how_to_play_common.paragraph": {
+         "$text": "cg.about.text1" } },
+       { "padding_2@how_to_play_common.padding": { } },
+       { "image_1@how_to_play_common.image": {
+          "texture": "textures/ui_img/about/aboutCreator" } },
+      { "padding_3@how_to_play_common.padding": { } },
+      { "paragraph_2@how_to_play_common.paragraph" : {
+         "$text": "cg.about.text2" }
+          }
+       ]
+    },
+  
+  "terms_of_use_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "termsOfuse"
+  },
+  "terms_of_use_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "termsOfuse_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+        { "header_0@how_to_play_common.header": {
+           "$text": "termsOfuse.header.title0" } },
+        { "padding_0@how_to_play_common.padding": { } },
+        { "paragraph_0@how_to_play_common.paragraph": {
+           "$text": "cg.termsOfuse.text0" } },
+        { "padding_1@how_to_play_common.padding": { } },
+        { "paragraph_1@how_to_play_common.paragraph": {
+           "$text": "cg.termsOfuse.text1" } },
+        { "padding_2@how_to_play_common.padding": { } },
+        { "paragraph_2@how_to_play_common.paragraph": {
+           "$text": "cg.termsOfuse.text2" } },
+        { "padding_3@how_to_play_common.padding": { } },
+        { "paragraph_3@how_to_play_common.paragraph": {
+           "$text": "cg.termsOfuse.text3" } },
+        { "padding_4@how_to_play_common.padding": { } },
+        { "paragraph_4@how_to_play_common.paragraph": {
+           "$text": "cg.termsOfuse.text4" } },
+        { "padding_5@how_to_play_common.padding": { } },
+        { "paragraph_5@how_to_play_common.paragraph": {
+           "$text": "cg.termsOfuse.text5" } },
+        { "padding_6@how_to_play_common.padding": { } },
+        { "paragraph_6@how_to_play_common.paragraph": {
+           "$text": "cg.termsOfuse.text6" }
+           }
+        ]
+     },
+
+   "creating_world_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "creatingWorld"
+  },
+  "creating_world_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "creatingWorld_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      { "header_0@how_to_play_common.header": {
+         "$text": "creatingWorld.header.title0" } },
+      { "padding_0@how_to_play_common.padding": { } },
+      { "paragraph_0@how_to_play_common.paragraph": {
+         "$text": "cg.creatingWorld.text0" } },
+      { "padding_1@how_to_play_common.padding": { } },
+      { "paragraph_1@how_to_play_common.paragraph": {
+         "$text": "cg.creatingWorld.text1" } },
+      { "padding_2@how_to_play_common.padding": { } },
+      { "image_0@how_to_play_common.image": {
+         "texture": "textures/ui_img/getting_started/creating_world" }
+       }
+     ]
+   },
+
+   "acquiring_needs_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "acquiringNeeds"
+  },
+  "acquiring_needs_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "acquiringNeeds_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      { "header_0@how_to_play_common.header": {
+         "$text": "acquiringNeeds.header.title0" } },
+      { "padding_0@how_to_play_common.padding": { } },
+      { "paragraph_0@how_to_play_common.paragraph": {
+         "$text": "cg.acquiringNeeds.text0" } },
+      { "padding_1@how_to_play_common.padding": { } },
+      { "paragraph_1@how_to_play_common.paragraph": {
+         "$text": "cg.acquiringNeeds.text1" }
+       }
+     ]
+   },
+
+   "element_constructor_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "elementConstructor"
+  },
+  "element_constructor_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "elementConstructor_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      { "header_0@how_to_play_common.header": {
+        "$text": "elementConstructor.header.title0" } },
+      { "padding_0@how_to_play_common.padding": { } },
+      { "image_0@how_to_play_common.image": {
+         "texture": "textures/ui_img/equipments/element_constructor" } },
+      { "padding_1@how_to_play_common.padding": { } },
+      { "paragraph_0@how_to_play_common.paragraph": {
+        "$text": "cg.elementConstructor.text0" } },
+      { "padding_2@how_to_play_common.padding": { } },
+      { "paragraph_1@how_to_play_common.paragraph": {
+        "$text": "cg.elementConstructor.text1" }
+       }
+     ]
+   },
+   
+   "compound_creator_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "compoundCreator"
+  },
+  "compound_creator_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "compoundCreator_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      { "header_0@how_to_play_common.header": {
+         "$text": "compoundCreator.header.title0" } },
+      { "padding_0@how_to_play_common.padding": { } },
+      { "image_0@how_to_play_common.image": {
+         "texture": "textures/ui_img/equipments/compound_creator" } },
+      { "padding_1@how_to_play_common.padding": { } },
+      { "paragraph_0@how_to_play_common.paragraph": {
+         "$text": "cg.compoundCreator.text0" } },
+      { "padding_2@how_to_play_common.padding": { } },
+      { "paragraph_1@how_to_play_common.paragraph": {
+         "$text": "cg.compoundCreator.text0" }
+       }
+     ]
+   },
+   
+   "lab_table_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "labTable"
+  },
+  "lab_table_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "labTable_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      { "header_0@how_to_play_common.header": {
+         "$text": "labTable.header.title0" } },
+      { "padding_0@how_to_play_common.padding": { } },
+      { "paragraph_0@how_to_play_common.paragraph": {
+         "$text": "cg.labTable.text0" } },
+      { "padding_1@how_to_play_common.padding": { } },
+      { "image_0@how_to_play_common.image": {
+         "texture": "textures/ui_img/equipments/lab_table" } },
+      { "padding_2@how_to_play_common.padding": { } },
+      { "paragraph_1@how_to_play_common.paragraph": {
+         "$text": "cg.labTable.text1" }
+       }
+     ]
+   },
+
+   "material_reducer_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "materialReducer"
+  },
+  "material_reducer_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "materialReducer_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      { "header_0@how_to_play_common.header": {
+         "$text": "materialReducer.header.title0" } },
+      { "padding_0@how_to_play_common.padding": { } },
+      { "paragraph_0@how_to_play_common.paragraph": {
+         "$text": "cg.materialReducer.text0" } },
+      { "padding_1@how_to_play_common.padding": { } },
+      { "paragraph_1@how_to_play_common.paragraph": {
+         "$text": "cg.materialReducer.text1" } },
+      { "padding_2@how_to_play_common.padding": { } },
+      { "image_0@how_to_play_common.image": {
+         "texture": "textures/ui_img/equipments/material_reducer" } },
+      { "padding_3@how_to_play_common.padding": { } },
+      { "paragraph_2@how_to_play_common.paragraph": {
+         "$text": "cg.materialReducer.text2" } },
+      { "padding_4@how_to_play_common.padding": { } },
+      { "image_1@how_to_play_common.image": {
+         "texture": "textures/ui_img/equipments/unknown_element" }
+       }
+     ]
+   },
+
+   "compound_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "compound"
+  },
+  "compound_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "compound_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      { "paragraph_0@how_to_play_common.paragraph": {
+         "$text": "cg.compound.text0" } },
+      { "padding_0@how_to_play_common.padding": { } },
+      { "header_0@how_to_play_common.header": {
+         "$text": "compound.header.title0" } },
+      { "padding_1@how_to_play_common.padding": { } },
+      { "image_0@how_to_play_common.image": {
+         "texture": "textures/ui_img/compound/compound_0" } },
+      { "image_1@how_to_play_common.image": {
+         "texture": "textures/ui_img/compound/compound_1" } },
+      { "image_2@how_to_play_common.image": {
+         "texture": "textures/ui_img/compound/compound_2" } },
+      { "image_3@how_to_play_common.image": {
+         "texture": "textures/ui_img/compound/compound_3" } },
+      { "image_4@how_to_play_common.image": {
+         "texture": "textures/ui_img/compound/compound_4" } },
+      { "image_5@how_to_play_common.image": {
+         "texture": "textures/ui_img/compound/compound_5" } },
+      { "image_6@how_to_play_common.image": {
+         "texture": "textures/ui_img/compound/compound_6" } },
+      { "image_7@how_to_play_common.image": {
+         "texture": "textures/ui_img/compound/compound_7" } },
+      { "image_8@how_to_play_common.image": {
+         "texture": "textures/ui_img/compound/compound_8" } },
+      { "image_9@how_to_play_common.image": {
+         "texture": "textures/ui_img/compound/compound_9" } },
+      { "image_10@how_to_play_common.image": {
+         "texture": "textures/ui_img/compound/compound_10" } },
+      { "image_11@how_to_play_common.image": {
+         "texture": "textures/ui_img/compound/compound_11" } },
+      { "image_12@how_to_play_common.image": {
+         "texture": "textures/ui_img/compound/compound_12" } },
+      { "image_13@how_to_play_common.image": {
+         "texture": "textures/ui_img/compound/compound_13" } },
+      { "image_14@how_to_play_common.image": {
+         "texture": "textures/ui_img/compound/compound_14" } },
+      { "header_1@how_to_play_common.header": {
+         "$text": "compound.header.title1" } },
+      { "image_15@how_to_play_common.image": {
+         "texture": "textures/ui_img/compound/compound_15" } },
+      { "image_16@how_to_play_common.image": {
+         "texture": "textures/ui_img/compound/compound_16" } },
+      { "image_17@how_to_play_common.image": {
+         "texture": "textures/ui_img/compound/compound_17" }
+       }
+     ]
+   },
+   
+   "lab_product_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "labProduct"
+  },
+  "lab_product_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "labProduct_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      { "paragraph_0@how_to_play_common.paragraph": {
+         "$text": "cg.labProduct.text0" } },
+      { "padding_0@how_to_play_common.padding": { } },
+      { "header_0@how_to_play_common.header": {
+         "$text": "labProduct.header.title0" } },
+      { "padding_1@how_to_play_common.padding": { } },
+      { "paragraph_1@how_to_play_common.paragraph": {
+         "$text": "cg.labProduct.text1" } },
+      { "padding_2@how_to_play_common.padding": { } },
+      { "paragraph_2@how_to_play_common.paragraph": {
+         "$text": "cg.labProduct.text2" } }, 
+      { "paragraph_3@how_to_play_common.paragraph": {
+         "$text": "cg.labProduct.text3" } },
+      { "paragraph_4@how_to_play_common.paragraph": {
+         "$text": "cg.labProduct.text4" } },
+      { "padding_3@how_to_play_common.padding": { } },
+      { "paragraph_5@how_to_play_common.paragraph": {
+         "$text": "cg.labProduct.text5" } },
+      { "paragraph_6@how_to_play_common.paragraph": {
+         "$text": "cg.labProduct.text6" } },
+      { "padding_4@how_to_play_common.padding": { } },
+      { "paragraph_7@how_to_play_common.paragraph": {
+         "$text": "cg.labProduct.text7" } },
+      { "padding_5@how_to_play_common.padding": { } },
+      { "paragraph_8@how_to_play_common.paragraph": {
+         "$text": "cg.labProduct.text2" } },
+      { "paragraph_9@how_to_play_common.paragraph": {
+         "$text": "cg.labProduct.text8" } },
+      { "paragraph_10@how_to_play_common.paragraph": {
+         "$text": "cg.labProduct.text9" } },
+      { "paragraph_11@how_to_play_common.paragraph": {
+         "$text": "cg.labProduct.text10" } },
+      { "paragraph_12@how_to_play_common.paragraph": {
+         "$text": "cg.labProduct.text11" } },
+      { "padding_6@how_to_play_common.padding": { } },
+      { "paragraph_13@how_to_play_common.paragraph": {
+         "$text": "cg.labProduct.text5" } },
+      { "paragraph_14@how_to_play_common.paragraph": {
+         "$text": "cg.labProduct.text12" } },
+      { "padding_7@how_to_play_common.padding": { } },
+      { "paragraph_15@how_to_play_common.paragraph": {
+         "$text": "cg.labProduct.text13" } },
+      { "padding_8@how_to_play_common.padding": { } },
+      { "paragraph_16@how_to_play_common.paragraph": {
+         "$text": "cg.labProduct.text2" } },
+      { "paragraph_17@how_to_play_common.paragraph": {
+         "$text": "cg.labProduct.text14" } },
+      { "padding_9@how_to_play_common.padding": { } },
+      { "paragraph_18@how_to_play_common.paragraph": {
+         "$text": "cg.labProduct.text5" } },
+      { "paragraph_19@how_to_play_common.paragraph": {
+         "$text": "cg.labProduct.text15" } },
+      { "padding_10@how_to_play_common.padding": { } },
+      { "paragraph_20@how_to_play_common.paragraph": {
+         "$text": "cg.labProduct.text16" } },
+      { "padding_11@how_to_play_common.padding": { } },
+      { "paragraph_21@how_to_play_common.paragraph": {
+         "$text": "cg.labProduct.text2" } },
+      { "paragraph_22@how_to_play_common.paragraph": {
+         "$text": "cg.labProduct.text17" } },
+      { "paragraph_23@how_to_play_common.paragraph": {
+         "$text": "cg.labProduct.text18" } },
+      { "padding_12@how_to_play_common.padding": { } },
+      { "paragraph_24@how_to_play_common.paragraph": {
+         "$text": "cg.labProduct.text5" } },
+      { "paragraph_25@how_to_play_common.paragraph": {
+         "$text": "cg.labProduct.text19" }
+       }
+     ]
+   },
+   
+   "crafted_items_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "craftedItems"
+  },
+  "crafted_items_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "craftedItems_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      { "header_0@how_to_play_common.header": {
+         "$text": "craftedItems.header.title0" } },
+      { "padding_0@how_to_play_common.padding": { } },
+      { "paragraph_0@how_to_play_common.paragraph": {
+         "$text": "cg.craftedItems.text0" } },
+      { "padding_1@how_to_play_common.padding": { } },
+      { "paragraph_1@how_to_play_common.paragraph": {
+         "$text": "cg.craftedItems.text1" } },
+      { "image_0@how_to_play_common.image": {
+         "texture": "textures/ui_img/crafted_items/colored_torches" } },
+      { "paragraph_2@how_to_play_common.paragraph": {
+         "$text": "cg.craftedItems.text2" } },
+      { "padding_2@how_to_play_common.padding": { } },
+      { "paragraph_3@how_to_play_common.paragraph": {
+         "$text": "cg.craftedItems.text3" } },
+      { "image_1@how_to_play_common.image": {
+         "texture": "textures/ui_img/crafted_items/underwater_torch" } },
+      { "paragraph_4@how_to_play_common.paragraph": {
+         "$text": "cg.craftedItems.text4" } },
+      { "padding_3@how_to_play_common.padding": { } },
+      { "paragraph_5@how_to_play_common.paragraph": {
+         "$text": "cg.craftedItems.text5" } },
+      { "image_2@how_to_play_common.image": {
+         "texture": "textures/ui_img/crafted_items/underwater_tnt" } },
+      { "paragraph_6@how_to_play_common.paragraph": {
+         "$text": "cg.craftedItems.text6" } },
+      { "padding_6@how_to_play_common.padding": { } },
+      { "paragraph_7@how_to_play_common.paragraph": {
+         "$text": "cg.craftedItems.text7" } },
+      { "image_3@how_to_play_common.image": {
+         "texture": "textures/ui_img/crafted_items/glow_stick" } },
+      { "paragraph_8@how_to_play_common.paragraph": {
+         "$text": "cg.craftedItems.text8" } },
+      { "padding_7@how_to_play_common.padding": { } },
+      { "paragraph_9@how_to_play_common.paragraph": {
+         "$text": "cg.craftedItems.text9" } },
+      { "image_4@how_to_play_common.image": {
+         "texture": "textures/ui_img/crafted_items/hardened_glass" } },
+      { "paragraph_10@how_to_play_common.paragraph": {
+         "$text": "cg.craftedItems.text10" } },
+      { "padding_8@how_to_play_common.padding": { } },
+      { "paragraph_11@how_to_play_common.paragraph": {
+         "$text": "cg.craftedItems.text11" } },
+      { "image_5@how_to_play_common.image": {
+         "texture": "textures/ui_img/crafted_items/balloon" } },
+      { "paragraph_12@how_to_play_common.paragraph": {
+         "$text": "cg.craftedItems.text12" } },
+      { "padding_9@how_to_play_common.padding": { } },
+      { "paragraph_13@how_to_play_common.paragraph": {
+         "$text": "cg.craftedItems.text13" } },
+      { "image_6@how_to_play_common.image": {
+         "texture": "textures/ui_img/crafted_items/sparkler" } },
+      { "paragraph_14@how_to_play_common.paragraph": {
+         "$text": "cg.craftedItems.text14" }
+         }
+       ]
+     },
+   
+   "medicine_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "medicine"
+  },
+  "medicine_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "medicine_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+       { "header_0@how_to_play_common.header": {
+          "$text": "medicine.header.title0" } },
+       { "padding_0@how_to_play_common.padding": { } },
+       { "paragraph_0@how_to_play_common.paragraph": {
+          "$text": "cg.medicine.text0" } },
+       { "padding_1@how_to_play_common.padding": { } },
+       { "paragraph_1@how_to_play_common.paragraph": {
+          "$text": "cg.medicine.text1" } },
+       { "padding_2@how_to_play_common.padding": { } },
+       { "paragraph_2@how_to_play_common.paragraph": {
+          "$text": "cg.medicine.text2" } },
+       { "image_0@how_to_play_common.image": {
+          "texture": "textures/ui_img/medicine/antidote" } },
+       { "padding_3@how_to_play_common.padding": { } },
+       { "paragraph_3@how_to_play_common.paragraph": {
+          "$text": "cg.medicine.text3" } },
+       { "image_1@how_to_play_common.image": {
+          "texture": "textures/ui_img/medicine/elexir" } },
+       { "padding_4@how_to_play_common.padding": { } },
+       { "paragraph_4@how_to_play_common.paragraph": {
+          "$text": "cg.medicine.text4" } },
+       { "image_2@how_to_play_common.image": {
+          "texture": "textures/ui_img/medicine/eye_drops" } },
+       { "padding_5@how_to_play_common.padding": { } },
+       { "paragraph_5@how_to_play_common.paragraph": {
+          "$text": "cg.medicine.text5" } },
+       { "image_3@how_to_play_common.image": {
+          "texture": "textures/ui_img/medicine/tonic" }
+        }
+     ]
+   },
+
+   "other_guides_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "otherGuides"
+  },
+  "other_guides_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "otherGuides_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      { "paragraph_0@how_to_play_common.paragraph": {
+         "$text": "cg.otherGuides.text0" } },
+      { "padding_0@how_to_play_common.padding": { } },
+      { "header_0@how_to_play_common.header": {
+         "$text": "otherGuides.header.title0" } },
+      { "padding_1@how_to_play_common.padding": { } },
+      { "paragraph_1@how_to_play_common.paragraph": {
+         "$text": "cg.otherGuides.text1" } },
+      { "padding_2@how_to_play_common.padding": { } },
+      { "paragraph_2@how_to_play_common.paragraph": {
+         "$text": "cg.otherGuides.text2" } },
+      { "padding_3@how_to_play_common.padding": { } },
+      { "image_0@how_to_play_common.image": {
+         "texture": "textures/ui_img/other_guides/redstone_guide" } },
+      { "padding_4@how_to_play_common.padding": { } },
+      { "header_1@how_to_play_common.header": {
+         "$text": "otherGuides.header.title1" } },
+      { "padding_5@how_to_play_common.padding": { } },
+      { "paragraph_3@how_to_play_common.paragraph": {
+         "$text": "cg.otherGuides.text3" } },
+      { "padding_6@how_to_play_common.padding": { } },
+      { "paragraph_3a@how_to_play_common.paragraph": {
+         "$text": "cg.otherGuides.text2" } },
+      { "padding_7@how_to_play_common.padding": { } },
+      { "image_1@how_to_play_common.image": {
+         "texture": "textures/ui_img/other_guides/banner_guide" } },
+      { "padding_8@how_to_play_common.padding": { } },
+      { "header_2@how_to_play_common.header": {
+         "$text": "otherGuides.header.title2" } },
+      { "padding_9@how_to_play_common.padding": { } },
+      { "paragraph_4@how_to_play_common.paragraph": {
+         "$text": "cg.otherGuides.text4" } },
+      { "padding_10@how_to_play_common.padding": { } },
+      { "paragraph_5@how_to_play_common.paragraph": {
+         "$text": "cg.otherGuides.text5" } },
+      { "padding_11@how_to_play_common.padding": { } },
+      { "paragraph_6@how_to_play_common.paragraph": {
+         "$text": "cg.otherGuides.text6" } },
+      { "padding_12@how_to_play_common.padding": { } },
+      { "paragraph_7@how_to_play_common.paragraph": {
+         "$text": "cg.otherGuides.text7" } },
+      { "padding_13@how_to_play_common.padding": { } },
+      { "paragraph_8@how_to_play_common.paragraph": {
+         "$text": "cg.otherGuides.text8" }
+       }
+     ]
+   },
+   
+   "other_resources_button@how_to_play_common.section_toggle_button": {
+    "$section_topic": "otherResources"
+  },
+  "other_resources_section@how_to_play_common.main_sections": {
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "otherResources_button_toggle",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      { "paragraph_0@how_to_play_common.paragraph": {
+         "$text": "cg.otherResources.text0" } },
+      { "padding_0@how_to_play_common.padding": { } },
+      { "header_0@how_to_play_common.header": {
+         "$text": "otherResources.header.title0" } },
+      { "padding_1@how_to_play_common.padding": { } },
+      { "paragraph_1@how_to_play_common.paragraph": {
+         "$text": "cg.otherResources.text1" } },
+      { "padding_2@how_to_play_common.padding": { } },
+      { "image_0@how_to_play_common.image": {
+         "texture": "textures/ui_img/other_resources/simple_pack" } },
+      { "padding_3@how_to_play_common.padding": { } },
+      { "header_1@how_to_play_common.header": {
+         "$text": "otherResources.header.title1" } },
+      { "padding_4@how_to_play_common.padding": { } },
+      { "paragraph_2@how_to_play_common.paragraph": {
+         "$text": "cg.otherResources.text2" } },
+      { "padding_5@how_to_play_common.padding": { } },
+      { "image_1@how_to_play_common.image": {
+          "texture": "textures/ui_img/other_resources/15wtd" } },
+      { "padding_6@how_to_play_common.padding": { } },
+      { "header_2@how_to_play_common.header": {
+         "$text": "otherResources.header.title2" } },
+      { "padding_7@how_to_play_common.padding": { } },
+      { "paragraph_3@how_to_play_common.paragraph": {
+         "$text": "cg.otherResources.text3" } },
+      { "padding_8@how_to_play_common.padding": { } },
+      { "image_2@how_to_play_common.image": {
+         "texture": "textures/ui_img/other_resources/copy_the_banners" } },
+      { "padding_9@how_to_play_common.padding": { } },
+      { "header_3@how_to_play_common.header": {
+         "$text": "otherResources.header.title3" } },
+      { "padding_10@how_to_play_common.padding": { } },
+      { "paragraph_4@how_to_play_common.paragraph": {
+         "$text": "cg.otherResources.text4" } },
+      { "padding_11@how_to_play_common.padding": { } },
+      { "image_3@how_to_play_common.image": {
+        "texture": "textures/ui_img/other_resources/function_command" } },
+      { "padding_12@how_to_play_common.padding": { } },
+      { "header_4@how_to_play_common.header": {
+          "$text": "otherResources.header.title4" } },
+      { "padding_13@how_to_play_common.padding": {} },
+      { "paragraph_5@how_to_play_common.paragraph": {
+          "$text": "cg.otherResources.text5" } },
+      { "padding_14@how_to_play_common.padding": { }},
+      { "image_4@how_to_play_common.image": {
+         "texture": "textures/ui_img/other_resources/monster_egg_distinguisher" } },
+      { "padding_15@how_to_play_common.padding": { } },
+      { "header_5@how_to_play_common.header": {
+         "$text": "otherResources.header.title5" } },
+      { "padding_16@how_to_play_common.padding": { } },
+      { "paragraph_6@how_to_play_common.paragraph": {
+         "$text": "cg.otherResources.text6" } },
+      { "padding_17@how_to_play_common.padding": { } },
+      { "image_5@how_to_play_common.image": {
+         "texture": "textures/ui_img/other_resources/pro_starter_pack" } 
+       }
+     ]
+   }
+ }

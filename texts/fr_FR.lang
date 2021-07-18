@@ -1,0 +1,224 @@
+menu.howToPlay=Wiki VoltCraft
+menu.howToPlay.generalMessage=Explorez le monde de la chimie dans Minecraft grâce à ce guide.
+
+//Sections & Category
+
+howtoplay.category.general=Général
+howtoplay.introduction=Introduction
+howtoplay.about=À propos
+howtoplay.termsOfuse=Conditions d'utilisation
+howtoplay.reference=Référence
+
+howtoplay.category.gettingStarted=Commencer
+howtoplay.creatingWorld=Créer un monde
+howtoplay.acquiringNeeds=Acquérir les choses nécessaires
+
+howtoplay.category.equipments=Équipments en Topaz
+howtoplay.elementConstructor=Casque
+howtoplay.compoundCreator=Plastron
+howtoplay.labTable=Jambière
+howtoplay.materialReducer=Bottes
+
+howtoplay.category.products=Produits
+howtoplay.compound=Corps composés
+howtoplay.labProduct=Produits de laboratoire
+howtoplay.craftedItems=Objets fabricables
+howtoplay.medicine=Médicaments
+
+howtoplay.category.otherContent=Autres contenus
+howtoplay.otherGuides=Autres guides
+howtoplay.otherResources=Autres ressources
+
+//Title
+
+howtoplay.introduction.title=Introduction
+howtoplay.about.title=À propos
+howtoplay.termsOfuse.title=Conditions d'utilisation
+howtoplay.reference.title=Référence
+
+howtoplay.creatingWorld.title=Commencer: Créer un monde
+howtoplay.acquiringNeeds.title=Commencer: Acquérir les choses nécessaires
+
+howtoplay.elementConstructor.title=Équipements: Casque
+howtoplay.compoundCreator.title=Équipments: Plastron
+howtoplay.labTable.title=Équipments: Jambière
+howtoplay.materialReducer.title=Équipments: Bottes
+
+howtoplay.compound.title=Produits: Corps composés
+howtoplay.labProduct.title=Produits: Produits de laboratoire
+howtoplay.craftedItems.title=Produits: Objets fabricables
+howtoplay.medicine.title=Produits: Médicaments
+
+howtoplay.otherGuides.title=Autres contenus: Autres guides
+howtoplay.otherResources.title=Autres contenus: Autres ressources
+
+//Introduction
+
+introduction.header.title0=Bienvenue dans le guide de chimie
+introduction.header.title1=Traducteur recherché
+
+cg.introduction.text0=La mise à jour Minecraft: Education Edition offre de nouveaux outils pour explorer le monde de la chimie dans Minecraft. Le pack de chimie permet d'expérimenter avec Minecraft tout en simulant le vrai monde de la science.
+cg.introduction.text1=Ce guide explique les différentes machines, les nouveaux objets de cette option éducative et comment fabriquer des produits avec des combinaisons de composés avec des objets de Minecraft pour faire des ballons d'hélium, des bâtons luminescents, de la lessive, du super engrais, des torches sous-marines et plus encore.
+cg.introduction.text2=Voulez vous voir ce guide traduit dans votre langue ? Vous pouvez m'aider à le traduire en une autre langue. Si vous parlez anglais et pouvez parler une autre langue aussi vous pourriez m'aider pour la traduction. Vous pouvez me contacter sur mes médias sociaux à propos de cela.
+
+//About
+
+about.header.title0=À propos de ce pack
+about.header.title1=À propos du créateur
+
+cg.about.text0=Ce pack a été fait pour aider les débutants à comprendre la chimie dans Minecraft.
+cg.about.text1=Toutes informations, textures, commandes modifiées pour l'interface proviennent de Vechrozilator. Vous n'avez pas le droit de réimporter ce guide sur un quelconque site. Si vous voyez quelqu'un qui le poste sur des sites vous pouvez me le dire.
+cg.about.text2=Pour toutes suggestions ou tous signalements de bug, vous pouvez me parler via FACEBOOK et/ou TWITTER. Vous pouvez aussi laisser un commentaire sur MCPEDL.
+
+//Terms Of Use
+
+termsOfuse.header.title0=Conditions d'utilisation
+
+cg.termsOfuse.text0=Le guide de chimie est gratuit de téléchargement et d'utilisation, ce pour tout le monde qui le souhaite mais avec certaines limitations.
+cg.termsOfuse.text1=Vous pouvez faire une vidéo de présentation pour votre chaîne YOUTUBE mais avec le lien de téléchargement à partir de MCPEDL.
+cg.termsOfuse.text2=Vous pouvez utiliser des photos/icônes de ce pack et les ajouter à votre propre projet mais ne les prétendez pas comme vous appartenant pour éviter le plagiat.
+cg.termsOfuse.text3=Ne pas poster ce pack sur un quelconque site ou l'importer sur votre compte du cloud même si vous me mentionnez en tant que créateur, notamment en le postant pour se faire de l'argent en ligne. C'est mieux de gagner de l'argent par son propre dur labeur/travail que de facilement en obtenir par un travail qui n'est pas le votre. Vous êtes un voleur en faisant cela.
+cg.termsOfuse.text4=Ne pas utiliser à des fins commerciales, ne pas distribuer.
+cg.termsOfuse.text5=Ne pas éditer quoique ce soit dans ce pack notamment en changeant le nom du créateur par le votre, puis le poster comme nouveau et prétendre que vous l'avez créé. C'est du plagiat et le plagiat est un crime.
+cg.termsOfuse.text6=Si vous ne suivez pas ces règles, je m'assurerai que votre contenu sera supprimé le plus vite possible.
+
+//Creating World
+
+creatingWorld.header.title0=Créer un monde
+
+cg.creatingWorld.text0=Pour activer ces fonctionnalités de chimie dans votre monde Minecraft vous devriez avoir besoin de faire un nouveau monde et d'activer "Education Edition" dans les paramètres, mais pour l'instant cela se trouve en-dessous des cheats donc ils se doivent d'être activés.
+cg.creatingWorld.text1=Vous pouvez aussi activer ces fonctionnalités dans vos mondes déjà existants, simplement en cliquant sur le bouton d'édition à droite du monde puis en activant "Education Edition" dans les paramètres de ce monde. Cela créera sûrement une copie de votre carte, avec inscrit au début le préfixe "[EDU]".
+
+//Acquiring Needs
+
+acquiringNeeds.header.title0=Acquérir les choses nécessaires
+
+cg.acquiringNeeds.text0=Pour commencer à expérimenter dans Minecraft vous aurez besoin d'équipements chimiques tels que le constructeur d'éléments, le créateur de corps composés, la table de laboratoire et le déconstructeur de matériaux (voir leurs utilisations dans la catégorie 'Équipements'). L'établi et l'alambic sont aussi nécessaires.
+cg.acquiringNeeds.text1=Mais actuellement ces équipements chimiques ne peuvent pas être fabriqués et il n'y a aucun moyen de les obtenir en mode survie donc vous devrez être en mode créatif et ainsi vous les verrez dans l'inventaire.
+
+//Element Constructor
+
+elementConstructor.header.title0=Casque
+elementConstructor.header.title1=Particles atomiques d'élément
+
+cg.elementConstructor.text0=Le constructeur d'éléments sert à créer des éléments en bougeant les curseurs pour choisir le nombre désiré de protons, d'éléctrons et de neutrons ou taper les nombres à l'intérieur des champs se trouvant en haut. En utilisant le constructeur d'éléments, vous pouvez créer 118 éléments et plus de 400 isotopes.
+cg.elementConstructor.text1=Vous voulez savoir le nombre de particules atomiques d'un élément particulier ? Pour cela mettez un élément de votre inventaire dans la case de sortie du constructeur d'éléments pour voir son nombre de protons, d'éléctrons et de neutrons.
+cg.elementConstructor.text2=Pour une liste complète des éléments fabricables et des isotopes, visitez la section 'Éléments' en-dessous de la catégorie 'Produits'.
+
+//Compound Creator
+
+compoundCreator.header.title0=Plastron
+
+cg.compoundCreator.text0=Le créateur de corps composés sert à créer des corps composés en ajoutant le type et le nombre approprié d'éléments à la grille. Le corps composé que vous avez créé apparaîtra dans la case de sortie à droite. L'emplacement des éléments dans la grille n'affecte pas le résultat. En utilisant le créateur de corps composés, vous pouvez créer plus de 30 différents corps composés.
+cg.compoundCreator.text1=Consultez la section 'Corps composés' en-dessous de la catégorie 'Produits' pour une liste complète des corps composés que vous pouvez faire.
+
+//Lab Table
+
+labTable.header.title0=Jambière
+
+cg.labTable.text0=La table de laboratoire sert à créer des produits en ajoutant le type et le nombre approprié d'éléments et/ou de corps composés à la grille. Lorsque vous êtes prêt à mener l'expérience, cliquez le bouton "Combiner". Si vous avez créé un produit viable, vous remarquerez que les images du haut s'animent pour indiquer que vous avez produit un liquide, un gaz ou un solide. L'emplacement des éléments dans la grille n'affecte pas le résultat. Le produit que vous avez créé apparaîtra après avoir cliqué "Combiner".
+cg.labTable.text1=Si les matériaux que vous avez combiné n'ont pas créé un produit viable, le processus donnera un produit inutilisable.
+
+//Material Reducer
+
+materialReducer.header.title0=Bottes
+
+cg.materialReducer.text0=Quand un bloc est placé dans la case du haut du déconstructeur de matériaux, il est décomposé en plusieurs éléments qui le composent.
+cg.materialReducer.text1=Vous devriez avoir besoin de seulement un bloc à placer dans cette case du haut pour décomposer un bloc.
+cg.materialReducer.text2=Quelques blocs de Minecraft tels que le sable des âmes et la roche du Nether contiennent des éléments mystérieux encore à découvrir dans notre monde qui seront représentés par un bloc avec un point d'interrogation.
+
+//Compound
+
+compound.header.title0=Corps composés fabricables
+compound.header.title1=Les chlorures
+cg.compound.text0=Liste des corps composés que vous pouvez créer en utilisant le créateur de corps composés
+
+//Lab Product
+
+labProduct.header.title0=Produits de la table de laboratoire
+cg.labProduct.text0=Liste des produits que vous pouvez créer en utilisant la table de laboratoire
+cg.labProduct.text1=* Nom: -Lessive-
+cg.labProduct.text2=Recette:
+cg.labProduct.text3=-eau x3
+cg.labProduct.text4=-hypochlorite de sodium x3
+cg.labProduct.text5=Usage:
+cg.labProduct.text6=Elle sert à nettoyer un objet à base de laine en le mettant blanc.
+cg.labProduct.text7=* Nom: -Bloc- chauffant
+cg.labProduct.text8=-fer
+cg.labProduct.text9=-eau
+cg.labProduct.text10=-charbon de bois
+cg.labProduct.text11=-sel
+cg.labProduct.text12=Il fait fondre la neige et la glace comme une torche.
+cg.labProduct.text13=* Nom: -Bombe de glace-
+cg.labProduct.text14=-acétate de sodium x4
+cg.labProduct.text15=Elle transforme l'eau en bloc de glace lorsqu'elle est lancée.
+cg.labProduct.text16=* Nom: -Super engrais-
+cg.labProduct.text17=-ammoniac
+cg.labProduct.text18=-phosphore
+cg.labProduct.text19=Il fait grandir les plantes jusqu'à maturité en un seul usage.
+
+//Crafted Items
+
+craftedItems.header.title0=Objets fabricables
+cg.craftedItems.text0=Liste des produits que vous pouvez faire en utilisant l'établi.
+cg.craftedItems.text1=* Torches colorées
+cg.craftedItems.text2=Combiner une chlorure avec une torche permettra d'obtenir une torche de la même couleur que la chlorure utilisée.
+cg.craftedItems.text3= Torche sous-marine
+cg.craftedItems.text4=Combiner du magnésium avec une torche permettra d'obtenir une torche sous-marine. Ce type de torche peut s'utiliser sous l'eau.
+cg.craftedItems.text5=* TNT aquatique
+cg.craftedItems.text6=Combiner du sodium et de la TNT permettra d'obtenir une TNT alternative qui endommagera les blocs même sous l'eau.
+cg.craftedItems.text7=* Bâtons luminescents
+cg.craftedItems.text8=Les trois objets à gauche et à droite sont des polyéthylènes et en bas au milieu c'est du luminol. Les colorants ne sont pas tous applicables. Un bâton luminescent brille lorsqu'il est agité.
+cg.craftedItems.text9=* Verre trempé
+cg.craftedItems.text10=Le verre trempé est plus résistant que le verre normal.
+cg.craftedItems.text11=* Ballons
+cg.craftedItems.text12=Les ballons peuvent être attachés à des barrières ou se faire éclater par des flèches. Ils sont aussi capables de soulever des entités dans les airs mais pas toutes.
+cg.craftedItems.text13=* Cierges magiques
+cg.craftedItems.text14=La couleur d'un cierge magique varie selon la chlorure utilisée pour le fabriqué. Les cierges magiques peuvent être tenus dans la main gauche.
+
+//Medicine
+
+medicine.header.title0=Médicaments
+
+cg.medicine.text0=Voici les potions que vous pouvez concocter à l'aide d'un alambic. Pour ces potions il faut utiliser l'étrange potion comme base pour les nouvelles potions, puis soyez sûr que votre alambic est chargé en poudre de blaze.
+cg.medicine.text1=Les potions suivantes sont utilisées pour supprimer des effets négatifs d'un joueur.
+cg.medicine.text2=Antidote, enlève l'effet de poison.
+cg.medicine.text3=Élexir, enlève l'effet de faiblesse.
+cg.medicine.text4=Collyre, enlève l'effet de cécité.
+cg.medicine.text5=Tonic, enlève l'effet de nausée.
+
+//Other Guides
+
+otherGuides.header.title0=Redstone Guide (Guide de la redstone)
+otherGuides.header.title1=Command Guide (Guide des commandes)
+otherGuides.header.title2=Note Block Guide (Guide du bloc musical)
+otherGuides.header.title3=Brewing Guide (Guide de l'alchimie)
+otherGuides.header.title4=Banner Guide (Guide des bannières)
+otherGuides.header.title5=Fireworks Guide (Guide des feux d'artifice)
+
+cg.otherGuides.text0=There are more guides like this, that are coming very soon, since I'm only one it took me to long to finished it. A guide with picture means already available at MCPEDL, go search and download it from MCPEDL.
+cg.otherGuides.text1=A Redstone Guide brings you a deeper explanation of how redstone work and how to use it. Every redstone items explain their uses, with the help of this guide it helps you to understand more redstone it has picture to help you understand better. Building redstone mechanism and contraption is done with a step by step tutorial with pictures so you can understand it clearly. It's also have some redstone techniques/tricks, to help you for making your own redstone creation.
+cg.otherGuides.text2=This Guide is already available at MCPEDL.
+cg.otherGuides.text3=The Guides that are listed below are guides that I plan to make wait them to be released only at MCPEDL.
+cg.otherGuides.text4=This guide is for teaching you how every command work and how to use them in this guide it's also teach you how do Command Block work and how to use them.
+cg.otherGuides.text5=Note block allows you to create music using a lot of this blocks know how it work, learn notes of note block and create your own music.
+cg.otherGuides.text6=There are a lot potion of you can brew in Minecraft, this will guide you in brewing your potions in Minecraft.
+cg.otherGuides.text7=Banner has a lot of design you can make, in this guides provide you a different kinds of banner designs.
+cg.otherGuides.text8=Fireworks can modify how it looks like when it explode in air, in this guides help you how will you design your fireworks.
+
+//Other Resources
+
+otherResources.header.title0=Simple Pack
+otherResources.header.title1=15 ways To Die
+otherResources.header.title2=Copy The Banner
+otherResources.header.title3=File For Function Command
+otherResources.header.title4=Monster Egg Distinguisher
+otherResources.header.title5=Pro Starter Pack
+
+cg.otherResources.text0=Also try other Resources that I was created. Texture pack, Add-on and Minigame Maps. All available at mcpedl.com
+cg.otherResources.text1=Simple Pack brings a simple, smooth and clean textures to blocks, items and mobs. Also have animation in some blocks.
+cg.otherResources.text2=A Minigame map which your goal is to kill yourself, solve puzzles and find a way how would you kill yourself.
+cg.otherResources.text3=Test your skill in designing the banner how good is you, can you copy all of the banner designs?
+cg.otherResources.text4=This behavior pack let you use the /function command in minecraft 1.8+ beta it's a new command that were added to the game and this command should need a behavior pack applied in a world to use it.
+cg.otherResources.text5=Monster Egg or infested block has same texture to stone if you modify the texture of stones, the monster egg will be like that too. This texture pack make these two kinds blocks will have a different texture to let you identify which is it, so you can prevent it to mined or prepare for it.
+cg.otherResources.text6=An add-on that generate an advance items loot on bonus chest. Apply it the world game in new world you will created, enabled bonus chest and your chest will have a good stuff.

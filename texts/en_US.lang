@@ -1,0 +1,221 @@
+menu.howToPlay=Wiki VoltCraft
+menu.howToPlay.generalMessage=Explore the world of chemistry in Minecraft with this guide.
+
+//Sections & Category
+
+howtoplay.category.general=General
+howtoplay.introduction=Introduction
+howtoplay.about=About
+howtoplay.termsOfuse=Terms Of Use
+howtoplay.reference=Reference
+
+howtoplay.category.gettingStarted=Getting Started
+howtoplay.creatingWorld=Creating World
+howtoplay.acquiringNeeds=Acquiring Needs
+
+howtoplay.category.equipments=Equipments
+howtoplay.elementConstructor=Element Constructor
+howtoplay.compoundCreator=Compound Creator
+howtoplay.labTable=Lab Table
+howtoplay.materialReducer=Material Reducer
+
+howtoplay.category.products=Products
+howtoplay.compound=Compound
+howtoplay.labProduct=Lab Product
+howtoplay.craftedItems=Craftable Items
+howtoplay.medicine=Medicine
+
+howtoplay.category.otherContent=Other Content
+howtoplay.otherGuides=Other Guides
+howtoplay.otherResources=Other Resources
+
+//Title
+
+howtoplay.introduction.title=Introduction
+howtoplay.about.title=About
+howtoplay.termsOfuse.title=Terms Of Use
+howtoplay.reference.title=Reference
+
+howtoplay.creatingWorld.title=Getting Started: Creating World
+howtoplay.acquiringNeeds.title=Getting Started: Acquiring Needs
+
+howtoplay.elementConstructor.title=Equipment: Element Constructor
+howtoplay.compoundCreator.title=Equipment: Compound Creator
+howtoplay.labTable.title=Equipment: Lab Table
+howtoplay.materialReducer.title=Equipment: Material Reducer
+
+howtoplay.compound.title=Product: Compound
+howtoplay.labProduct.title=Product: Lab Product
+howtoplay.craftedItems.title=Product: Craftable Items
+howtoplay.medicine.title=Product: Medicine
+
+howtoplay.otherGuides.title=Other Content: Other Guides
+howtoplay.otherResources.title=Other Content: Other Resources
+
+//Introduction
+
+introduction.header.title0=Welcome To Chemistry Guide
+introduction.header.title1=Wanted Translator
+
+cg.introduction.text0=The Chemistry Update for Minecraft: Education Edition offers exciting new tools to explore the world of chemistry in Minecraft. The Chemistry Resource Pack allows you to conduct experiments within Minecraft that simulate real world science. 
+cg.introduction.text1=This guide explains the different crafting stations, new items in the Chemistry Resource Pack and how to craft products by combining compounds with Minecraft items to make helium balloons, glowsticks, bleach, super fertilizer, underwater torches and more.
+cg.introduction.text2=Do you want to see this guide translated in your language? You can help me to translate this guide into another language. If you can speak English and can speak in other language too you could help me to translate this. You can contact in my social media accounts about this.
+
+//About
+
+about.header.title0=About The Pack
+about.header.title1=About Creator
+
+cg.about.text0=This guide was made to help beginner to understand chemistry in Minecraft.
+cg.about.text1=All information, textures, modifying command for UI are all provided by Vechrozilator. You don't have rights to reupload this guide in any of the sites. If you see someone is reposting it in other sites you can tell me that.
+cg.about.text2=For suggestions reporting bugs you can tell me via Facebook and/or Twitter. You can also drop your comment in MCPEDL.
+
+//Terms Of Use
+
+termsOfuse.header.title0=Terms Of Use
+
+cg.termsOfuse.text0=Chemistry Guide is free to download and use, it's free for everyone who want it but with a certain limitation.
+cg.termsOfuse.text1=You can do make a video review in your YouTube Channel but with download link from MCPEDL.
+cg.termsOfuse.text2=You can use pictures/icon in this texture pack and add to your own project but don't claim it as your own to avoid plagiarism.
+cg.termsOfuse.text3=Don't repost it in any of the sites/apps or upload it in your cloud account even you mentioned me as a Creator, especially when reposting it and make money online. It's better to gain money from your own hardwork than to easily get it but not from your own work. Your a thief in doing this.
+cg.termsOfuse.text4=Don't use as a commercial purposes, don't distribute.
+cg.termsOfuse.text5=Don't edit anything in it especially when you change the name of creator of this pack to your own name, then repost it as new and claim that you have made it. This a plagiarism and plagiarism is a crime.
+cg.termsOfuse.text6=If you don't follow these, I will make sure your content will remove as soon as possible.
+
+//Creating World
+
+creatingWorld.header.title0=Creating World
+
+cg.creatingWorld.text0=To enable this chemistry features in your Minecraft world you should need to make a new world and enable education edition in world settings, but currently it's under a cheat so the cheat must be enabled to enable education edition.
+cg.creatingWorld.text1=You can also enable this features in your existing Minecraft worlds, must click edit icon in right side of the world then you can enabled education edition in world settings. This will create a new copy of your world, start with the name [EDU].
+
+//Acquiring Needs
+
+acquiringNeeds.header.title0=Acquiring Needs
+
+cg.acquiringNeeds.text0=To start experiment in Minecraft you should need a a chemistry equipments which are Element Constructor, Compound Creator, Lab Table and Material Reducer (See their uses in Equipments category). Crafting Table and Brewing Stand are also need.
+cg.acquiringNeeds.text1=But currently those chemistry equipments cannot be crafted and there's no way to get it in survival you should be in creative mode and you can see them in your inventory.
+
+//Element Constructor
+
+elementConstructor.header.title0=Element Constructor
+elementConstructor.header.title1=Subatomic Particles of Element
+
+cg.elementConstructor.text0=Element Constructor use to create elements by moving the sliders to choose the desired number of protons, electrons, and neutrons or type the numbers into the fields at the top. By using the Element Constructor, you can create 118 elements and over 400 isotopes.
+cg.elementConstructor.text1=Want to check the subatomic particles of a particular element? Drop an element from your inventory into the output box of the Element Constructor to see the number of protons, electrons, and neutrons. 
+cg.elementConstructor.text2=For a complete list of craftable elements and isotopes visit the the Elements section under product category.
+
+//Compound Creator
+
+compoundCreator.header.title0=Compound Creator
+
+cg.compoundCreator.text0=Create compounds by adding the appropriate type and number of elements to the grid. The compound you have created will appear in the output box on the righthand side. The location of the elements on the grid does not affect the result. By using the Compound Creator, you can create over 30 different compounds.
+cg.compoundCreator.text1=Check out the Compound section under Product category for list of all compounds you can make.
+
+//Lab Table
+
+labTable.header.title0=Lab Table
+
+cg.labTable.text0=Create products by adding the appropriate type and number of elements and/or compounds to the grid. When ready to conduct the experiment, click the ?Combine? button. If you have created a viable product, you will notice that the images at the top will animate to indicate that you have produced a liquid, gas, or solid. The location of the materials on the grid does not affect the result. The product you have created will appear after clicking combine.
+cg.labTable.text1=If the materials you have combined did not create a viable product, the process will result in a "garbage" item.
+
+//Material Reducer
+
+materialReducer.header.title0=Material Reducer
+
+cg.materialReducer.text0=When a block is placed in the box at the top of the Material Reducer, it is reduced to its component elements by percentage. 
+cg.materialReducer.text1= Only 1 block you should need to place in the box at the top to reduce to it's components elements.
+cg.materialReducer.text2=Some Minecraft blocks such as soul sand and netherrack contain mysterious elements yet to be discovered in our world and as such will be represented by a question mark block.
+
+//Compound
+
+compound.header.title0=Craftable Compounds
+compound.header.title1=Chlorides
+cg.compound.text0=Here are the compounds you can create using the Compound Creator in Minecraft.
+
+//Lab Product
+
+labProduct.header.title0=Lab Table Product
+cg.labProduct.text0=Here is the list of products that you can create using Lab Table
+cg.labProduct.text1=Name: Bleach
+cg.labProduct.text2=Recipe:
+cg.labProduct.text3=-Water x3
+cg.labProduct.text4=-Sodium Hypochlorite x3
+cg.labProduct.text5=Usage:
+cg.labProduct.text6=When use at crafting table will turn colored wool, carpets, beds and banners white.
+cg.labProduct.text7=Name: Heat Block
+cg.labProduct.text8=-Iron
+cg.labProduct.text9=-Water
+cg.labProduct.text10=-Charcoal
+cg.labProduct.text11=-Salt
+cg.labProduct.text12=Melts snow and ice just like a torch.
+cg.labProduct.text13=Name: Ice Bomb
+cg.labProduct.text14=-Sodium Acetate x4
+cg.labProduct.text15=Transform water blocks to ice blocks when thrown
+cg.labProduct.text16=Name: Super Fertilizer
+cg.labProduct.text17=-Ammonia
+cg.labProduct.text18=-Phosphorus
+cg.labProduct.text19=Grow plants to maturity in a single use.
+
+//Crafted Items
+
+craftedItems.header.title0=Craftable Items
+cg.craftedItems.text0=Here is the list of products that you can make using crafting table.
+cg.craftedItems.text1=Colored Torches
+cg.craftedItems.text2=Combining various chlorides with a torch will change the color.
+cg.craftedItems.text3=Underwater Torch
+cg.craftedItems.text4=Combine magnesium with a torch will create underwater torch. This kind of torch can be used underwater.
+cg.craftedItems.text5=Underwater TNT
+cg.craftedItems.text6=Sodium + TNT will create an alternative version of TNT which will damage blocks even when underwater.
+cg.craftedItems.text7=Glow Stick
+cg.craftedItems.text8=The three on the left and right side are Polyethylene and at center bottom is Luminol. There are only applicable dyes to combine; black, gray, light gray, white and brown isn't applicable. The glow stick glows when shaken.
+cg.craftedItems.text9=Hardened Glass
+cg.craftedItems.text10=Hardened glass takes much longer than normal glass.
+cg.craftedItems.text11=Balloon
+cg.craftedItems.text12=Balloons can be attached to fences, can be shot with arrows and lift mobs into the air.
+cg.craftedItems.text13=Sparklers
+cg.craftedItems.text14=The chlorides can change the color of sparklers. Sparklers can be used as an off hand item.
+
+//Medicine
+
+medicine.header.title0=Medicines
+
+cg.medicine.text0=These are the potions you can brew using Brewing Stand. For these potions use akward water bottle as base for brewing potions, make sure you fill brewing stand a blazed powder for it's fuel.
+cg.medicine.text1=The following potions are used to remove negative effects from player.
+cg.medicine.text2=Antidote - Cures poison.
+cg.medicine.text3=Elexir - Cures weakness.
+cg.medicine.text4=Eye Drops - Cures blindness.
+cg.medicine.text5=Tonic - Cures nausea.
+
+//Other Guides
+
+otherGuides.header.title0=Redstone Guide
+otherGuides.header.title1=Banner Guide
+otherGuides.header.title2=Coming Guides
+
+cg.otherGuides.text0=There are more guides like this, that are coming very soon, since I'm only one it took me to long to finished it. Some of these guides are already available at MCPEDL, go search and download them from MCPEDL.
+cg.otherGuides.text1=A Redstone Guide brings you a deeper explanation of how redstone work and how to use it. Every redstone items explain their uses, with the help of this guide it helps you to understand more redstone it has picture to help you understand better. Building redstone mechanism and contraption is done with a step by step tutorial with pictures so you can understand it clearly. It's also have some redstone techniques/tricks, to help you for making your own redstone creation.
+cg.otherGuides.text2=This Guide is already available at MCPEDL.
+cg.otherGuides.text3=Banners, are tall decorative blocks, featuring a field that is highly customizable using dyes. This guide explains how to design banner adding patterns in it, to create an awesome banner design. It provide banner designs example with pictures to let you easily do it in your own.
+cg.otherGuides.text4=The Guides that are listed below are guides that I plan to make wait them to be released only at MCPEDL.
+cg.otherGuides.text5=Command Guide - This guide is for teaching you how every command work and how to use them in this guide it's also teach you how do Command Block work and how to use them.
+cg.otherGuides.text6=Noteblock Guide - Note block allows you to create music using a lot of this blocks know how it work, learn notes of note block and create your own music.
+cg.otherGuides.text7=Brewing Guide - There are a lot potion of you can brew in Minecraft, this will guide you in brewing your potions in Minecraft.
+cg.otherGuides.text8=Fireworks Guide - Fireworks can modify how it looks like when it explode in air, in this guides help you how will you design your fireworks.
+
+//Other Resources
+
+otherResources.header.title0=Simple Pack
+otherResources.header.title1=15 ways To Die
+otherResources.header.title2=Copy The Banner
+otherResources.header.title3=File For Function Command
+otherResources.header.title4=Monster Egg Distinguisher
+otherResources.header.title5=Pro Starter Pack
+
+cg.otherResources.text0=Also try other Resources that I was created. Texture pack, Add-on and Minigame Maps. All available at mcpedl.com
+cg.otherResources.text1=Simple Pack brings a simple, smooth and clean textures to blocks, items and mobs. Also have animation in some blocks.
+cg.otherResources.text2=A Minigame map which your goal is to kill yourself, solve puzzles and find a way how would you kill yourself.
+cg.otherResources.text3=Test your skill in designing the banner how good is you, can you copy all of the banner designs?
+cg.otherResources.text4=This behavior pack let you use the /function command in minecraft 1.8+ beta it's a new command that were added to the game and this command should need a behavior pack applied in a world to use it.
+cg.otherResources.text5=Monster Egg or infested block has same texture to stone if you modify the texture of stones, the monster egg will be like that too. This texture pack make these two kinds blocks will have a different texture to let you identify which is it, so you can prevent it to mined or prepare for it.
+cg.otherResources.text6=An add-on that generate an advance items loot on bonus chest. Apply it the world game in new world you will created, enabled bonus chest and your chest will have a good stuff.
