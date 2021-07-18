@@ -1,0 +1,18 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "\nServeur Pack 32x32\n§bAuthor §8> §eAdrien_Sama",
+        "name": "§eVoltCraft 32x b1.1",
+        "uuid": "0501c61f-a5da-4b7f-9901-ffda2975861e",
+        "version": [1, 13, 0],
+        "min_engine_version": [1, 13, 0]
+    },
+    "modules": [
+        {
+            "description": "\nServeur Pack 32x32\n§bAuthor §8> §eAdrien_Sama",
+            "type": "resources",
+            "uuid": "53644fac-a276-42e5-833f-a3c6f169a9ab",
+            "version": [0, 0, 1]
+        }
+    ]
+}
